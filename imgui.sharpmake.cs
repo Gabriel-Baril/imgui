@@ -14,7 +14,7 @@ public class ImguiProject : BaseCppProject
     public new void ConfigureAll(Project.Configuration conf, Target target)
     {
         base.ConfigureAll(conf, target);
-        conf.SolutionFolder = Constants.EXTERNAL_FOLDER;
+        conf.SolutionFolder = Constants.EXTERNAL_VS_CATEGORY;
         conf.Output = Project.Configuration.OutputType.Lib;
         conf.TargetPath = @"[project.SharpmakeCsPath]\Out\Bin\[target.Platform]-[target.Optimization]";
         conf.IntermediatePath = @"[project.SharpmakeCsPath]\Out\Intermediate\[target.Platform]-[target.Optimization]";
