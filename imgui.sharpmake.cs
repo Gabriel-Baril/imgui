@@ -1,9 +1,9 @@
 using System.IO; // For Path.Combine
 using Sharpmake; // Contains the entire Sharpmake object library.
 [Generate]
-public class HdnCodeExternalImguiProject : BaseCppProject
+public class DmCodeExternalImguiProject : BaseCppProject
 {
-    public HdnCodeExternalImguiProject()
+    public DmCodeExternalImguiProject()
     {
         Name = "dm.code.external.imgui";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
