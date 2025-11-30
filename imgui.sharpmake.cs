@@ -5,7 +5,7 @@ public class HdnCodeExternalImguiProject : BaseCppProject
 {
     public HdnCodeExternalImguiProject()
     {
-        Name = "hdn.code.external.imgui";
+        Name = "dm.code.external.imgui";
         SourceRootPath = @"[project.SharpmakeCsPath]\src";
         AddTargets(TargetUtil.DefaultTarget);
     }
